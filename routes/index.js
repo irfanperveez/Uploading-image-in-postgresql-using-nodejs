@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const imageController = require('./controllers/imageController');
+const imageController = require('../controllers/imageController');
 
 const app = express();
 const PORT = 4000;
